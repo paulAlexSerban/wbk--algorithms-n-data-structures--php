@@ -3,9 +3,9 @@ services:
   php-apache-env:
     container_name: php
     build: 
-      context: ./php
+      context: .
       dockerfile: Dockerfile
     volumes: 
-      - ./php/src:/var/www/html
+      - ./php:/var/www/html
     ports: 
       - 8000:80
