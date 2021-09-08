@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  php-apache-env:
+    container_name: php
+    build: 
+      context: ./php
+      dockerfile: Dockerfile
+    volumes: 
+      - ./php/src:/var/www/html
+    ports: 
+      - 8000:80
