@@ -14,3 +14,9 @@ Workbook repository for algorithms and data structures implemented in Php! Here,
 
 * all you have to do is edit the files in `./php`
 * you can view your changes in `http://localhost:8000`
+
+## 📬 Contact
+For inquiries, issues, or further information, feel free to contact me:
+
+GitHub: @paulAlexSerban
+Email: paul.alex.serban@gmail.com
