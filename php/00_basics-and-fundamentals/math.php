@@ -1,7 +1,6 @@
-<h1>Math Functions</h1>
-<br>
-
-<?php 
+<?php
+include '../utils/file_list.php';
+generateFileList();
 
 echo pow(3, 2);
 echo "<br>";
@@ -14,4 +13,3 @@ echo "<br>";
 echo ceil(34.4);
 echo "<br>";
 echo floor(34.4);
-?>
